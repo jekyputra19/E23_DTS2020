@@ -1,0 +1,90 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bookman Old Style";
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(47, 79, 79);
+}
+
+.header-left {
+  float: left;
+  color: white;
+  font-size: 15px;
+  line-height: 55px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -30px;
+}
+
+.header-right a {
+  line-height: 55px;
+  padding: 0 20px;
+  color: white;  
+  font-size: 12px;
+  float: left;
+  
+}
+.top-wrapper {
+  padding: 140px 0 100px 0;
+  background-image: url('indonesia.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  font-family: Lucida Console;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+  font-family: Lucida Console;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+.find {
+  background-color: #239b76;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
