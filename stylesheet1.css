@@ -91,15 +91,15 @@ header {
 }
 
 .footer {
-  background-color: #2f5167;
-  color: #fff;
-  height: 240px;
-  padding: 80px;
+  background-color: #e0e0e0;
+  color: #030303;
+  height: 220px;
+  padding: 20px;
 }
 
 .footer-logo {
   float: left;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .footer-list {
@@ -107,5 +107,5 @@ header {
 }
 
 .footer-list li {
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
